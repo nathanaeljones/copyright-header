@@ -69,6 +69,13 @@ cpp:
     close:  '//\n\n'
     prefix: '// '
 
+csharp:
+  ext: ['.cs']
+  comment:
+    open:   '//\n'
+    close:  '//\n\n'
+    prefix: '// '
+    
 java:
   ext: ['.java']
   comment:
