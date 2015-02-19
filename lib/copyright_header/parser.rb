@@ -127,7 +127,7 @@ module CopyrightHeader
     end
 
     def has_copyright?(lines = 10)
-      @contents.split(/\n/)[0..lines].select { |line| line =~ /(?!class\s+)([Cc]opyright|[Ll]icense)\s/ }.length > 0
+      @contents.split(/\n/)[0..lines].select { |line| line =~ /(?!class\s+)([Cc]opyright|[Ll]icense|[Cc]hanges to this file may cause incorrect behavior and will be lost)\s/ }.length > 0
     end
   end
 
